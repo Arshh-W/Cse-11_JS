@@ -44,3 +44,29 @@ var person= {
 console.log(person.name);//accessed as child/property of object not dict[key]
 sayHello();
 
+/* = assigns a value 
+   == compares the values and returns true if equal
+   === does strict typed comparison between two variables
+*/
+let x=4;
+let y="4";
+console.log(x==y);
+console.log(x===y);
+
+// ternary operator
+let age=10;
+var voteable = (age<18)?"Not old enough": "Old Enough";
+
+//max of 3 numbers
+let num1=2;
+let num2=3;
+let num3=10;
+var max= (num1>num2)?((num1>num3)?num1:num3):((num2>num3)?num2:num3);
+console.log(max);
+
+var count;
+document.write("Starting loop <br/>");
+for(count=0;count<10;count++){
+    document.write(count+"<br/>");
+}
+docuement.write("<br/>")
