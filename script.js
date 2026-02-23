@@ -42,3 +42,5 @@ var person= {
 }
 
 console.log(person.name);//accessed as child/property of object not dict[key]
+sayHello();
+
