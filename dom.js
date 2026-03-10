@@ -29,6 +29,12 @@ result4.style.color="blue";
 const result5=document.querySelectorAll("ul li"); 
 console.log(result5);
 for(x in result5){
-    
     result5[x].style.color="green";
+    
 }
+
+//HTML Dol Properties 
+//tagName-> returns tag of the elements
+//innerText-> Returns the content of the element and it's children
+//innerHTML-> Returns the plain text or HTML content of the the element
+//textContent-> Returns the text content of the element and it's children
