@@ -5,7 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>JavaScripts DOM Basics</title>
 </head>
-<body>
+<body onload="onLoad()">
     <div id="para"></div>
     <p class="p1">Hello, World!</p>
     <p class="p1"></p>
@@ -15,7 +15,17 @@
         <li>Item1</li>
         <li>Item2</li>
         <li>Item3</li>
+        <li>Item4</li>
     </ul>
-    <script src="dom.js"> </script>
+    <h1 id="myH1" class="democlass"> The Element Object</h1>
+    <p id="demo"></p>
+    <button onclick="onClick()">On_Click</button>
+    <button onmouseover="onMouseOver()"> onmouseover</button>
+    <button onmouseout="onMouseOut()">onmouseout</button>
+    <button onmousedown="onMouseDown()">onmousedown</button>
+    <button onmouseup="onMouseUp()">onmouseup</button>
+    <button onmousemove="onMouseMove()">onmousemove</button>
+    <button ondblclick="onDoubleClick()">Double Click</button>
+    <script src="domappend.js"> </script>
 </body>
 </html>

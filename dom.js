@@ -30,11 +30,24 @@ const result5=document.querySelectorAll("ul li");
 console.log(result5);
 for(x in result5){
     result5[x].style.color="green";
+    result5[x].style.fontSize="20px";
     
 }
 
-//HTML Dol Properties 
-//tagName-> returns tag of the elements
+//HTML Dom Properties 
+//tagName-> returns elements of a tag
 //innerText-> Returns the content of the element and it's children
 //innerHTML-> Returns the plain text or HTML content of the the element
 //textContent-> Returns the text content of the element and it's children
+
+//get attribute
+
+const element = document.getElementById("myH1");
+let text= elememt.getAttribute("class");
+document.getElementById("demo").innerHTML = text;
+
+function myFunction()
+{
+    document.getElementByID("MyH1").setAttribute("class","democlass");
+    alert("Attribute added!");
+}
